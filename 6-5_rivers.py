@@ -12,3 +12,4 @@ for river in rivers.keys():
 
 for country in rivers.values():
     print(country)
+
