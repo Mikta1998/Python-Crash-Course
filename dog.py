@@ -15,10 +15,15 @@ class Dog:
         print(f"{self.name} rolled over")
 
     def show_age(self):
-        print(f"{self.name} is {self.age} years old")
+        print(f"{self.name} is {self.age} years old.")
 
 
 my_dog = Dog("Loki", 3)
+
+print(my_dog.name)
+print(my_dog.age)
+
+print("\n")
 
 my_dog.sit()
 my_dog.roll_over()

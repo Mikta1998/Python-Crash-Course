@@ -4,7 +4,7 @@ def car_info(manufacturer, model_name, **further_info):
     return further_info
 
 
-my_car = car_info("Porsche","PoscheGT",
+my_car = car_info("Porsche","PorscheGT",
                   PS=700,
                   Production_year="2025")
 
