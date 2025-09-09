@@ -42,7 +42,7 @@ class Admin(Users):
     
 
 
-user1 = Users("Filip", "Timov")
+"""user1 = Users("Filip", "Timov")
 user1.describe_user()
 user1.greet_user()
 
@@ -54,4 +54,4 @@ user1.reset_login_attempts()
 print(user1.login_attempts)
 
 admin = Admin("Mikta", "Timov")
-admin.privileges.show_privileges()
+admin.privileges.show_privileges()"""

@@ -38,3 +38,21 @@ my_restaurant.total_customers_served()
 my_restaurant.increment_number_served(90)
 my_restaurant.total_customers_served()
 
+
+class IceCreamStand(Restaurant):
+    def __init__(self, restaurant_name, cuisine_type):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavors = ["chocolate","vanilla"]
+
+
+    def display_flavors(self):
+        for flavor in self.flavors:
+            print(flavor)
+        
+
+
+
+my_ice_cream_stand = IceCreamStand("A New Dawn", "Meso")
+
+my_ice_cream_stand.display_flavors()
+
